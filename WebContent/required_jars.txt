@@ -1,0 +1,41 @@
+# Spring framework
+org.springframework.asm-3.*.jar
+org.springframework.beans-3.*.jar
+org.springframework.context-3.*.jar
+org.springframework.core-3.*.jar
+org.springframework.expression-3.*.jar
+org.springframework.oxm-3.*.jar
+org.springframework.web.servlet-3.*.jar
+org.springframework.web-3.*.jar
+
+# JAXB 2
+jaxb-api.jar
+jaxb-impl.jar
+
+# JSTL
+jstl.jar
+standard.jar
+
+# logging
+commons-logging.jar
+log4j-*.jar
+
+
+GET 查询
+	http://localhost:8080/Spring-rest/service/employee/1
+	
+	http://localhost:8080/Spring-rest/service/employees
+
+POST 增加
+	http://localhost:8080/Spring-rest/service/employee
+	参数：<employee><id>3</id><name>guest</name></employee>
+
+PUT	修改
+	http://localhost:8080/Spring-rest/service/employee/3
+	参数：<employee><id>3</id><name>welcome</name></employee>
+
+DELETE  删除
+	http://localhost:8080/Spring-rest/service/employee/3
+
+
+
